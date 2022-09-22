@@ -3,7 +3,8 @@
     "baseUrl": "./",
     "paths": {
        "Components/*": ["src/components"],
-       "Services/*": ["src/services"]  
+       "Services/*": ["src/services"],
+       "Images/*": ["src/assets/images"]  
     },  
     "target": "ESNext",
     "useDefineForClassFields": true,

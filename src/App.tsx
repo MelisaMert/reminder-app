@@ -1,9 +1,10 @@
 import './App.css'
+import Layout from './components/Layout/Layout'
 
 function App() {
   return (
     <div className="App">
-      <p>Reminder App</p>
+        <Layout />
     </div>
   )
 }
