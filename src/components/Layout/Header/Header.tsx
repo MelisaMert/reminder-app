@@ -12,21 +12,26 @@ const Header = () => {
   return (
     <header className="header">
       <h1 className="logo">
-        <a href="#">
+        <Link to="/home">
           <ReindeerIcon />
-        </a>
+        </Link>
       </h1>
       <ul className="main-nav">
         <li>
-          <NavLink to="/home" style={({ isActive }) => ({
-            color: isActive ? 'greenyellow' : 'white'
-          })}>
+          <Link to="/home">
             Home
-          </NavLink>
-          {/* <a href="#">Home</a> */}
+          </Link>
         </li>
-        <li><a href="#">Reminders</a></li>
-        <li><a href="#">User</a></li>
+        <li>
+          <Link to="/reminders">
+            Reminders
+          </Link>
+        </li>
+        <li>
+          <Link to="/profile">
+            Profile
+          </Link>
+        </li>
       </ul>
     </header>
 
